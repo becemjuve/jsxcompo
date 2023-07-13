@@ -1,0 +1,80 @@
+p,h1,h2,Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img {
+ display: flex;
+  width: 200px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 18rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+.card .btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.card .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  background-color: #0069d9;
+
+}
+
